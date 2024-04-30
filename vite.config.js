@@ -7,7 +7,7 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig(
   // …
   {
-    base: "/falak-tulsi",
+    base: "/falak-tulsi/",
     plugins: [
       react(),
       svgr({
